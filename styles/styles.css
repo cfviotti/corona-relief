@@ -10,4 +10,5 @@
 /* Components */
 @import "components/page-nav.css";
 @import "components/news-card.css";
+@import "components/cards-grid.css";
 @import "components/info-tag.css";
