@@ -1,0 +1,22 @@
+.info-tag {
+  display: inline-flex;
+  font-size: var(--font-size-mili);
+  padding: 0.25rem 0.75rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  color: #FFF;
+  transform: translateY(1.5rem);
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5)
+}
+
+.info-tag.-testing {
+  background-color: #00cc66;
+}
+
+.info-tag.-vaccine {
+  background-color: #00b1cc;
+}
+
+.info-tag.-treatment {
+  background-color: #e6b800;
+}
