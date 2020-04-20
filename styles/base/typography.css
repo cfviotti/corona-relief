@@ -1,0 +1,62 @@
+html,
+p,
+li,
+blockquote,
+pre {
+  font-size: var(--font-size-deci);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+}
+
+h1 {
+  line-height: var(--line-height-hecto);
+  font-size: var(--font-size-hecto);
+}
+
+* + h1 {
+  margin-top: var(--space-kilo);
+}
+
+h2 {
+  line-height: var(--line-height-deca);
+  font-size: var(--font-size-deca);
+}
+
+* + h2 {
+  margin-top: var(--space-deca);
+}
+
+h3 {
+  line-height: var(--line-height-base);
+  font-size: var(--font-size-base);
+}
+
+* + h3 {
+  margin-top: var(--space-base);
+}
+
+h4 {
+  line-height: var(--line-height-centi);
+  font-size: var(--font-size-centi);
+}
+
+* + h4 {
+  margin-top: var(--space-centi);
+}
+
+h5 {
+  font-weight: 500;
+  line-height: var(--line-height-mili);
+  font-size: var(--font-size-mili);
+}
+
+* + h5 {
+  margin-top: var(--space-centi);
+}

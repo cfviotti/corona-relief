@@ -1,0 +1,47 @@
+*:before,
+*:after,
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-family-body);
+  font-size: 16px;
+  font-weight: 400;
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  max-width: 1180px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  padding: 0 2rem;
+  opacity: 0;
+  animation: reveal-body 1s 0.5s ease forwards;
+}
+
+@keyframes reveal-body {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+p a {
+  color: #3b81ea;
+  background-image: linear-gradient(transparent 20%, rgba(59, 129, 234, .2) 0, rgba(59, 129, 234, .2) 90%, transparent 0);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  transition: all .2s ease-in;
+}
+
+p a:hover {
+  background-size: 100% 100%;
+}
